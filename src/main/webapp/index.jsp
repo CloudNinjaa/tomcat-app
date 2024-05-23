@@ -1,20 +1,24 @@
-<html>
-<body>
-<h2>Hello Everyone, How are youuuu! ?</h2>
-<h3>Welcome to Cloud With Malthesh| AWS Certified Security Engineer, Azure & AWS Solution Architect </h3>
-  
-<marquee>Welcome to Cloud With Malthesh</marquee>
 
-<marquee direction="up">Welcome to Cloud With Malthesh| DEVOPS </marquee>
+<form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
 
-<marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid">
-  <marquee behavior="alternate">
-    Welcome to Cloud With Malthesh Achar| DEVOPS
-  </marquee>
-</marquee>
-  <B> <U> <I> Jenkins Installation </B> </i> </u>
-    <B> <U> <I> Java ADD </B> </i> </u>
-    <B> <U> <I> TomCat Installation </B> </i> </u>
-    <B> <U> <I> Pipeline Build </B> </i> </u>
-</body>
-</html>
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
